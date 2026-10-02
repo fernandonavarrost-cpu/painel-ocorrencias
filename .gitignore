@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Segredos locais (a nuvem usa o campo Secrets do Streamlit)
+.streamlit/secrets.toml
+
+# Logs
+streamlit.log
+streamlit_erro.log
+
+# Travas dos arquivos Excel
+*.lock
+
+# Dados gravados em runtime (recriados vazios a cada deploy)
+dados/ocorrencias.xlsx
+dados/avisos.xlsx

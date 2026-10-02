@@ -1,0 +1,15 @@
+[server]
+address = "0.0.0.0"
+port = 8501
+headless = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showSidebarNavigation = false
+
+[theme]
+primaryColor = "#2E7D32"
+base = "light"
